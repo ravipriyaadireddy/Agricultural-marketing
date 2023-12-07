@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:url("https://cdn.siasat.com/wp-content/uploads/2020/05/Agriculture.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-image:linear-gradient(rgb(24, 158, 26),rgb(176, 242, 10),rgb(176, 242, 10));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(19, 80, 133, 0.2);
+    text-align: center;
+}
+
+.login-box h1 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    /* padding: 10px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #aada1b;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

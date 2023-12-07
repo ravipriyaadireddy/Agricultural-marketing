@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
+
+@media only screen and (max-width: 700px) {
+    .home-container {
+        background-color: rgba(255, 255, 255, 0.6);
+        /* padding: 5vh 5vw; */
+        margin: 10vh 10vw;
+        border-radius: 10px;
+        text-align: center;
+    }
+    }
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Merienda', cursive;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.home-container {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10vh 10vw;
+    border-radius: 10px;
+    text-align: center;
+
+}
+  
+.home-page-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+    border-radius: 15%;
+}
+  
+.website-name {
+    font-size: 5vmax;
+    color: white;
+    text-shadow: 5px 2px 5px black;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.member-btn a:hover{
+    color: rgb(162, 5, 5);
+}
+.login-btn a:hover{
+    color: green;
+}
+
+.btn{
+    border: none;
+}
+  
+.btn-slot-crop{
+    display: inline;
+}
+   
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #03b44d;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+.slot-btn:after{
+    background-color: #3498db;
+    
+}
+
+
+.member-btn:after{
+    background-color: #e74c3c;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(10, 141, 255, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    }
